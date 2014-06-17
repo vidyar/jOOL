@@ -4,5 +4,6 @@ jdk:
   - openjdk8
 install:
   - sh -c 'mvn install -DskipTests=true'
+
 script:
   - sh -c 'mvn test'
